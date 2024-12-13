@@ -22,7 +22,15 @@
         </div>
         <div class="form-group">
             <label for="years">Years of Coverage</label>
-            <input type="number" id="years" min="1" placeholder="Enter years of coverage" />
+            <input type="number" id="years" placeholder="Enter years of coverage" />
+        </div>
+        <div class="form-group">
+            <label for="plan">Type of Plan</label>
+            <select id="plan">
+                <option value="basic">Basic</option>
+                <option value="premium">Premium</option>
+                <option value="gold">Gold</option>
+            </select>
         </div>
         <div class="form-group">
             <button onclick="calculateCoverage()">Submit</button>
